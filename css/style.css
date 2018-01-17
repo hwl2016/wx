@@ -1,0 +1,114 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+pre {
+	margin: 0;
+	white-space: pre-wrap;       
+	white-space: -moz-pre-wrap;  
+	white-space: -pre-wrap;      
+	white-space: -o-pre-wrap;    
+	word-wrap: break-word;      
+}
+.hidden {
+	display: none;
+}
+.chat_wrapper {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	border: 1px solid #ECECEC;
+	min-width: 600px;
+	min-height: 700px;
+	background: #f5f5f5;
+	font-size: 14px;
+}
+.chat_toolbar {
+	height: 40px;
+	position: relative;
+}
+.chat_opt {
+	padding: 0 30px;
+	border-top: 1px solid #ECECEC;
+	border-bottom: 1px solid #ECECEC;
+}
+.bk_white {
+	background: #fff;
+}
+#editor {
+	height: 70px;
+	outline: none;
+	overflow: auto;
+}
+.logo_emoji {
+	margin: 10px 0 0 0;
+	cursor: pointer;
+}
+.emoji {
+	width: 300px;
+	height: 160px;
+	border: 1px solid #aaa;
+	position: absolute;
+	left:0;
+	top:50px;
+	background: #fff;
+}
+.emoji li {
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+}
+.js_emoji_gif {
+	width: 26px;
+	height: 26px;
+	display: block;
+}
+.ctrl {
+	padding: 10px 0;
+	height: 50px;
+}
+.btn {
+	width: 68px;
+	height: 26px;
+	line-height: 26px;
+	border: 1px solid #E1E1E1;
+	text-align: center;
+	color: #606060;
+	cursor: pointer;
+	float: right;
+}
+.btn:hover {
+	background: #129611;
+	color: #fff;
+}
+
+.chat_show {
+	height: 400px;
+	overflow: auto;
+	padding: 10px;
+}
+.chat_show .right {
+	margin: 10px 0;
+	width: 70%;
+	float: right;
+}
+.chat_show pre {
+	border-radius: 5px;
+	background: #ddd;
+	padding: 10px;
+	float: right;
+}
+.chat_show span {
+	float: right;
+	line-height: 35px;
+	margin-left: 10px;
+}
